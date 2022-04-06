@@ -1,0 +1,104 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #efefef;
+}
+
+.container {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+section .contact {
+    background-color: black;
+    padding: 1rem 0;
+}
+
+section img {
+    margin: 0 2rem;
+}
+
+.articleContact h3 {
+    margin: 1rem 2rem;
+}
+
+.articleContact .reference {
+    color: white;
+    margin: 1rem 2rem;
+}
+
+.articleContact .reference p {
+    margin: 0 auto;
+    font-size: small;
+    margin: 0 0.5rem;
+
+}
+
+.container .skill {
+    text-align: center;
+}
+
+.container .skill h1 {
+    font-size: 2rem;
+}
+
+.skill  article h3 {
+    margin: 0.5rem auto;
+    text-align: left;
+    padding: 0 1rem;
+}
+.skill  article p {
+    margin: 0 7px;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    font-size: small;
+}
+
+.articleSkill ul {
+    margin: 0 11px;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    font-size: small;
+    
+}
+
+.articleSkill ul li {
+    margin: 5px 8px;
+}
+
+.skillTech ul li {
+    display: inline;
+    font-weight: normal;
+    margin: auto 5px;
+}
+
+
+.articleSkill h5 {
+    margin: 7px 7px;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.articleSkill h6, .articleSkill h3 {
+    margin: 7px 7px;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.colorTitle {
+    color: darkgoldenrod;
+}
+
+.colorSubTitle {
+    color: deepskyblue;
+}
+
+a {
+    text-decoration:  none;
+}
